@@ -1,9 +1,5 @@
 .Hello {
-  background: #222;
-  color: white;
-  width: 90%;
-  margin: 0 auto;
-  text-align: center;
-  border-radius: 5rem;
-  box-shadow: .1rem .1rem 5rem yellow;
+  display: grid;
+  grid-template-columns: 10rem 1fr;
+  grid-template-rows: 50rem repeat(6, 1fr);
 }

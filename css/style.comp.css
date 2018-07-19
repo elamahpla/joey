@@ -17,11 +17,17 @@ body {
 html {
   font-size: 62.5%; }
 
-.Hello {
-  background: rbga(0, 0, 0, 0.3);
-  color: white;
-  width: 90%;
+.dummy {
+  background: orangered;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  margin: 0 auto; }
+
+.Header {
+  height: 10rem;
+  width: 100%;
+  grid-column: 4 / 6;
+  grid-row: 2;
   margin: 0 auto;
-  text-align: center;
-  border-radius: 5rem;
-  box-shadow: .1rem .1rem 2.5rem green; }
+  background: yellow; }
