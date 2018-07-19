@@ -1,5 +1,5 @@
 .Body {
-  background: brown;
+  background: linear-gradient(25deg, #7c1e3e, #9f1d31, #c21921, #e51005);
   grid-column: 2 / -1;
   grid-row: 3 / -1;
   // clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%); Is a star
@@ -7,10 +7,4 @@
   // clip-path: polygon(0% 87%, 50% 0%, 50% 0%, 100% 87%);
   clip-path: polygon(0 100%, 100% 0, 0 0);
   z-index: 2;
-}
-
-.BodyTwo {
-  background: coral;
-  grid-column: 2 / -1;
-  grid-row: 3 / -1;
 }
