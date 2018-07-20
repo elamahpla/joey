@@ -17,9 +17,11 @@ body {
   font-family: 'IBM Plex Serif', serif; }
 
 a {
+  text-decoration: none;
   color: white;
   font-size: 2rem;
-  width: 5rem; }
+  margin: 0;
+  padding: 0; }
 
 html {
   font-size: 62.5%; }
@@ -34,21 +36,23 @@ html {
   grid-column: 1 / -1;
   grid-row: 1;
   display: grid;
-  grid-template-columns: 10rem repeat(5, 10rem);
+  grid-template-columns: 10rem repeat(5, 8rem);
+  justify-items: center;
+  align-content: center;
+  align-self: center;
+  align-items: center;
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 3rem;
-  z-index: 3; }
+  width: 100%; }
   .Header-Home {
     grid-column: 2; }
   .Header-About {
     grid-column: 3; }
-  .Header-Portfolio {
-    grid-column: 4; }
   .Header-Contact {
-    grid-column: 5; }
+    grid-column: 4; }
+  .Header-Portfolio {
+    grid-column: 6; }
 
 .Main {
   background: rgba(34, 34, 34, 0.475);
@@ -77,15 +81,13 @@ html {
   grid-row: 2; }
 
 .Home {
-  background: linear-gradient(219deg, #000c24 50%, #004ef1 50%);
+  background: linear-gradient(225deg, #000c24, #062361, #0838a6, #004ef1);
   grid-column: 1 / -1;
   grid-row: 2 / -1;
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(6, 1fr); }
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: 15rem repeat(4, 1fr) 15rem repeat(2, 20rem); }
   .Home-Two {
-    background: #000;
-    width: 50%;
-    height: 50%;
-    grid-column: 2 / span 6;
+    background: rgba(0, 0, 0, 0.45);
+    grid-column: 2 / span 8;
     grid-row: 2 / span 5; }

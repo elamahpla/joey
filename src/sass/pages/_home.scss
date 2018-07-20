@@ -1,17 +1,14 @@
 .Home {
-  // background: linear-gradient(225deg, #000c24, #062361, #0838a6, #004ef1);
-  background: linear-gradient(219deg, #000c24 50%, #004ef1 50%);
+  background: linear-gradient(225deg, #000c24, #062361, #0838a6, #004ef1);
   grid-column: 1 / -1;
   grid-row: 2 / -1;
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(6, 1fr);
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: 15rem repeat(4, 1fr) 15rem repeat(2, 20rem);
   // clip-path: polygon(100% 100%, 100% 0, 0 0);
   &-Two {
-    background: #000;
-    width: 50%;
-    height: 50%;
-    grid-column: 2 / span 6;
+    background: rgba(0, 0, 0, .45);
+    grid-column: 2 / span 8;
     grid-row: 2 / span 5;
   }
 }
