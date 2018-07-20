@@ -3,25 +3,21 @@
   grid-column: 1 / -1;
   grid-row: 1;
   display: grid;
-  grid-template-columns: 10rem repeat(5, 8rem);
-  justify-items: center;
-  align-content: center;
-  align-self: center;
-  align-items: center;
+  grid-template-columns: 7rem 7rem 8.5rem 7rem;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   &-Home {
-    grid-column: 2;
+    grid-column: 1;
   }
   &-About {
-    grid-column: 3;
+    grid-column: 2;
   }
   &-Contact {
-    grid-column: 4;
+    grid-column: 3;
   }
   &-Portfolio {
-    grid-column: 6;
+    grid-column: 4;
   }
 }
