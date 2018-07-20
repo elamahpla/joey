@@ -1,13 +1,12 @@
 import React from 'react';
-import Main from '../../Components/Main/Main';
-import Body from '../../Components/Body/Body';
-import BodyTwo from '../../Components/Body/BodyTwo/BodyTwo';
+import HomeTwo from './HomeTwo/HomeTwo';
+
+// The Home Page component. Refer to HomeTwo.js to see the triangle. This will be the 'landing page'
+// If you will. Undecided What should go here, for now.
 
 const Home = () => (
-  <div>
-    <Body />
-    <Main />
-    <BodyTwo />
+  <div className="One">
+    <HomeTwo />
   </div>
 );
 

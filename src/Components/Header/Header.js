@@ -1,8 +1,15 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 const Header = () => (
   <header className="Header">
-    From Two
+    <NavLink className="Header-Home" to="/">Home</NavLink>
+    <NavLink className="Header-About" to="/about">About</NavLink>
+    <NavLink className="Header-Portfolio" to="/portfolio">Portfolio</NavLink>
+    <NavLink className="Header-Contact" to="/contact">Contact</NavLink>
+    {/* <NavLink to="/portfolio">Portfolio</NavLink>
+    <NavLink to="/">Home</NavLink>
+    <NavLink to="/">Home</NavLink> */}
   </header>
 );
 

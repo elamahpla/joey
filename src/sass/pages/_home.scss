@@ -1,0 +1,20 @@
+.Two {
+  height: 100%;
+  background: linear-gradient(25deg, #000c24, #062361, #0838a6, #004ef1);
+  grid-column: 1 / -1;
+  grid-row: 2 / -1;
+  clip-path: polygon(0 100%, 100% 0, 0 0);
+  z-index: 5;
+}
+
+.One {
+  background: linear-gradient(225deg, #000c24, #062361, #0838a6, #004ef1);
+  grid-column: 1 / -1;
+  grid-row: 2 / -1;
+}
+
+// .DeadSelector {
+//   clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%); Is a star
+//   clip-path: polygon(100% 0, 50% 100%, 0 100%, 0 50%); Is a road
+//   clip-path: polygon(0% 87%, 50% 0%, 50% 0%, 100% 87%);
+// }
