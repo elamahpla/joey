@@ -7,7 +7,6 @@ import Home from '../Pages/Home/Home';
 import Header from '../Components/Header/Header';
 import Footer from '../Components/Footer/Footer';
 import Sidebar from '../Components/Sidebar/Sidebar';
-import HomeTwo from '../Pages/Home/HomeTwo/HomeTwo';
 
 class Routes extends Component {
   render() {
@@ -17,7 +16,6 @@ class Routes extends Component {
           <Header />
           <Switch>
             <Route path="/" exact component={Home} />
-            <Route path="/" exact component={HomeTwo} />
             <Route path="/about" component={About} />
             <Route path="/contact" component={Contact} />
             <Route path="/portfolio" component={Portfolio} />

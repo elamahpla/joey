@@ -1,17 +1,29 @@
-.Two {
-  height: 100%;
-  background: linear-gradient(25deg, #000c24, #062361, #0838a6, #004ef1);
+.Home {
+  // background: linear-gradient(225deg, #000c24, #062361, #0838a6, #004ef1);
+  background: linear-gradient(219deg, #000c24 50%, #004ef1 50%);
   grid-column: 1 / -1;
   grid-row: 2 / -1;
-  clip-path: polygon(0 100%, 100% 0, 0 0);
-  z-index: 5;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(6, 1fr);
+  // clip-path: polygon(100% 100%, 100% 0, 0 0);
+  &-Two {
+    background: #000;
+    width: 50%;
+    height: 50%;
+    grid-column: 2 / span 6;
+    grid-row: 2 / span 5;
+  }
 }
 
-.One {
-  background: linear-gradient(225deg, #000c24, #062361, #0838a6, #004ef1);
-  grid-column: 1 / -1;
-  grid-row: 2 / -1;
-}
+// .Two {
+//   height: 100%;
+//   background: linear-gradient(25deg, #000c24, #062361, #0838a6, #004ef1);
+//   grid-column: 1 / -1;
+//   grid-row: 2 / -1;
+//   clip-path: polygon(0 100%, 100% 0, 0 0);
+//   z-index: 5;
+// }
 
 // .DeadSelector {
 //   clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%); Is a star

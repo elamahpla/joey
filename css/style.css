@@ -54,12 +54,11 @@ html {
   background: rgba(34, 34, 34, 0.475);
   border: 1px inset white;
   grid-column: 2 / -1;
-  grid-row: 3 / -1;
+  grid-row: 1 / -1;
   z-index: 2;
-  width: 86.7%;
-  height: 90.35%;
-  margin: 0 auto;
-  z-index: 5; }
+  width: 75%;
+  height: 90%;
+  margin: 0 auto; }
 
 .Sidebar {
   background: linear-gradient(225deg, #000c24, #062361, #0838a6, #004ef1);
@@ -77,15 +76,16 @@ html {
   grid-column: 1 / -1;
   grid-row: 2; }
 
-.Two {
-  height: 100%;
-  background: linear-gradient(25deg, #000c24, #062361, #0838a6, #004ef1);
+.Home {
+  background: linear-gradient(219deg, #000c24 50%, #004ef1 50%);
   grid-column: 1 / -1;
   grid-row: 2 / -1;
-  clip-path: polygon(0 100%, 100% 0, 0 0);
-  z-index: 5; }
-
-.One {
-  background: linear-gradient(225deg, #000c24, #062361, #0838a6, #004ef1);
-  grid-column: 1 / -1;
-  grid-row: 2 / -1; }
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(6, 1fr); }
+  .Home-Two {
+    background: #000;
+    width: 50%;
+    height: 50%;
+    grid-column: 2 / span 6;
+    grid-row: 2 / span 5; }
