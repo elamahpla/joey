@@ -4,6 +4,7 @@ import Header from '../Components/Header/Header';
 import Body from '../Components/Body/Body';
 import BodyTwo from '../Components/Body/BodyTwo/BodyTwo';
 import Main from '../Components/Main/Main';
+import Footer from '../Components/Footer/Footer';
 
 
 class Hello extends Component {
@@ -15,6 +16,7 @@ class Hello extends Component {
         <Body />
         <Main />
         <BodyTwo />
+        <Footer />
       </div>
     );
   }
