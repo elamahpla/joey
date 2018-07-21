@@ -37,6 +37,7 @@ html {
   grid-row: 1;
   display: grid;
   grid-template-columns: 7rem 7rem 8.5rem 7rem;
+  grid-gap: 1rem;
   position: fixed;
   top: 0;
   left: 0;
