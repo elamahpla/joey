@@ -2,49 +2,43 @@
   background: linear-gradient(25deg, #000c24, #062361, #0838a6, #004ef1);
   grid-column: 1 / -1;
   grid-row: 1;
+  // display: flex;
+  // align-content: flex-start;
   display: grid;
-  grid-template-columns: 7rem 7rem 9rem 7rem;
-  grid-gap: 3rem;
+  grid-template-columns: repeat(4, min-content);
+  // grid-gap: 3rem;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   &-Home {
     grid-column: 1;
-    justify-self: center;
     @include headerRoll;
     &:hover {
       background: #a32020;
-      color: white;
     }
   }
   &-About {
     grid-column: 2;
-    justify-self: center;
     @include headerRoll;
     &:hover {
       background: #e04618;
-      color: white;
     }
   }
   &-Contact {
     grid-column: 3;
-    justify-self: center;
     @include headerRoll;
     text-align: center;
     &:hover {
       background: #1bbd23;
-      color: white;
       text-align: center;
     }
   }
   &-Portfolio {
     grid-column: 4;
-    justify-self: center;
     @include headerRoll;
     &:hover {
       background: #74088f;
-      color: white;
     }
   }
 }
