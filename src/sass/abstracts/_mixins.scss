@@ -1,0 +1,30 @@
+@mixin headerRoll {
+  border: none;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  & > * {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    transition: all .1s;
+  }
+  &-Visible {
+    padding: 1.5rem;
+  }
+  &-Invisible {
+    padding: 1.5rem;
+    position: absolute;
+    left: 0;
+    top: -100%;
+  }
+  &:hover &-Visible {
+    transform: translateY(100%);
+  }
+  &:hover &-Invisible {
+    top: 0;
+  }
+  &:focus {
+    outline: none;
+  }
+}
