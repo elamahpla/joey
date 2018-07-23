@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Button from '../../../../Components/Button/Button';
 
 class JR extends Component {
   state = {
@@ -17,18 +18,19 @@ class JR extends Component {
         <a href="http://joeyrobinson.me/" target="_blank" rel="nofollow">
           <img
             style={{width: '25rem', height: '15rem'}} 
-            src="http://puu.sh/B1KUK/32da66d5fc.png" alt=""/>
+            src="https://drive.google.com/uc?id=1A7QHS8Cl0Bh-pUfJTs7m9GVPEOFnbed1" 
+            alt=""
+          />
         </a>
         <p>Problem:</p>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi, corporis?</p>
-        <button
-          className="Requests-Toggle"
+        <Button
+          className="Portfolio-Button"
           onClick={this.handleToggleVisibility}>
             {this.state.visibility ? <p>Hide</p> : <p>Special Requests</p>}
-        </button>
+        </Button>
         {this.state.visibility && (
           <div>
-            <br/>
             <p>test</p>
           </div>
         )}
