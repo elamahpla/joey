@@ -5,7 +5,7 @@
   // display: flex;
   // align-content: flex-start;
   display: grid;
-  grid-template-columns: repeat(4, min-content);
+  grid-template-columns: repeat(5, max-content) 1fr;
   // grid-gap: 3rem;
   position: fixed;
   top: 0;
@@ -28,10 +28,8 @@
   &-Contact {
     grid-column: 3;
     @include headerRoll;
-    text-align: center;
     &:hover {
       background: #1bbd23;
-      text-align: center;
     }
   }
   &-Portfolio {
@@ -40,6 +38,20 @@
     &:hover {
       background: #74088f;
     }
+  }
+  &-Skills {
+    grid-column: 5;
+    @include headerRoll;
+    &:hover {
+      background: #442727;
+    }
+  }
+  &-Line {
+    grid-column: 6;
+    align-self: center;
+    height: .1rem;
+    width: 98%;
+    background: white;
   }
 }
 

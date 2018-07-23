@@ -4,6 +4,7 @@
   position: relative;
   overflow: hidden;
   cursor: pointer;
+  text-align: center;
   & > * {
     display: inline-block;
     height: 100%;
@@ -11,10 +12,10 @@
     transition: all .1s;
   }
   &-Visible {
-    padding: 1.5rem;
+    padding: 1.75rem;
   }
   &-Invisible {
-    padding: 1.5rem;
+    padding: 1.75rem;
     position: absolute;
     left: 0;
     top: -100%;
