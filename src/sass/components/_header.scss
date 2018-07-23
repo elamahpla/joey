@@ -25,11 +25,11 @@
       background: #e04618;
     }
   }
-  &-Contact {
+  &-Skills {
     grid-column: 3;
     @include headerRoll;
     &:hover {
-      background: #1bbd23;
+      background: #442727;
     }
   }
   &-Portfolio {
@@ -39,11 +39,11 @@
       background: #360542;
     }
   }
-  &-Skills {
+  &-Contact {
     grid-column: 5;
     @include headerRoll;
     &:hover {
-      background: #442727;
+      background: #1bbd23;
     }
   }
   &-Line {
