@@ -1,4 +1,6 @@
 .Portfolio {
   background: #360542;
   @include placement;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
