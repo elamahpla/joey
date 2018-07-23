@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Portfolio = () => (
-  <div>
+  <div className="Portfolio">
     From Portfolio
   </div>
 );
