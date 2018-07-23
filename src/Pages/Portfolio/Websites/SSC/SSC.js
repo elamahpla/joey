@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Button from '../../../../Components/Button/Button';
 
-class JR extends Component {
+class SSC extends Component {
   state = {
     visibility: false
   }
@@ -15,21 +15,20 @@ class JR extends Component {
   render() {
     return (
       <div>
-        <a href="http://joeyrobinson.me/" target="_blank" rel="nofollow">
+        <a href="http://sweetestsoutherncreations.com/#/" target="_blank" rel="nofollow">
           <img
-            src="https://drive.google.com/uc?id=1A7QHS8Cl0Bh-pUfJTs7m9GVPEOFnbed1" 
+            src="https://i.imgur.com/NEw8g9e.png" 
             alt=""
           />
         </a>
         <Button
-          id="one"
-          className="Portfolio-Button-JR"
+          className="Portfolio-Button"
           onClick={this.handleToggleVisibility}>
             {this.state.visibility ? <p>Solution:</p> : <p>Problem:</p>}
         </Button>
         {this.state.visibility && (
           <div>
-            <p>test</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi sint sed deserunt vero esse rem facere porro fuga quo molestias.</p>
           </div>
         )}
       </div>
@@ -37,4 +36,4 @@ class JR extends Component {
   }
 }
 
-export default JR;
+export default SSC;

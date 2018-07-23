@@ -7,13 +7,13 @@ const Portfolio = () => (
       <Websites />
     </div>
     <div className="Portfolio-Components">
-      Two
+      {/* Two */}
     </div>
     <div className="Portfolio-JS">
-      Three
+      {/* Three */}
     </div>
     <div className="Portfolio-Other">
-      Four
+      {/* Four */}
     </div>
   </div>
 );

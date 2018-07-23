@@ -20,17 +20,14 @@ class STC extends Component {
           target="_blank" 
           rel="nofollow">
           <img 
-            style={{width: '25rem', height: '15rem'}} 
             src="https://drive.google.com/uc?id=1pUo71qRaA1gejbK-xmELPAGxCy6uogPu" 
             alt=""
           />  
         </a>
-        <p>Problem:</p>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi, corporis?</p>
         <Button
           className="Portfolio-Button"
           onClick={this.handleToggleVisibility}>
-            {this.state.visibility ? <p>Hide</p> : <p>Special Requests</p>}
+            {this.state.visibility ? <p>Solution:</p> : <p>Problem:</p>}
         </Button>
         {this.state.visibility && (
           <div>
