@@ -7,13 +7,20 @@
   grid-template-columns: 5rem repeat(5, 30rem);
   // grid-template-rows: 5rem 1fr;
   &-Websites {
-    grid-column: 3;
+    grid-column: 2;
     grid-row: 2;
     display: grid;
   }
   &-Button {
     &-JR {
       background: yellow;
+    }
+    &-STC {
+      background: cornflowerblue;
+    }
+    &-SSC {
+      background: #222;
+      color: white;
     }
   }
   &-Toggle {
