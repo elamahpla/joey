@@ -22,7 +22,7 @@ class SSC extends Component {
           />
         </a>
         <Button
-          className="Portfolio-Button"
+          className="Portfolio-Button-SSC"
           onClick={this.handleToggleVisibility}>
             {this.state.visibility ? <p>Solution:</p> : <p>Problem:</p>}
         </Button>

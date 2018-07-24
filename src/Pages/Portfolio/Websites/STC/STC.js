@@ -25,13 +25,13 @@ class STC extends Component {
           />  
         </a>
         <Button
-          className="Portfolio-Button"
+          className="Portfolio-Button-STC"
           onClick={this.handleToggleVisibility}>
             {this.state.visibility ? <p>Solution:</p> : <p>Problem:</p>}
         </Button>
         {this.state.visibility && (
-          <div>
-            <p>wqdqwdwq</p>
+          <div className="Portfolio-Toggle">
+            <p>I needed a personal website to showcase what I've done and what I can do.</p>
           </div>
         )}
       </div>

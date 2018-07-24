@@ -4,10 +4,10 @@
   display: grid;
   // grid-template-columns: min-content;
   grid-template-rows: 5rem max-content;
-  grid-template-columns: repeat(5, 25rem);
+  grid-template-columns: 5rem repeat(5, 30rem);
   // grid-template-rows: 5rem 1fr;
   &-Websites {
-    grid-column: 2;
+    grid-column: 3;
     grid-row: 2;
     display: grid;
   }
@@ -15,5 +15,8 @@
     &-JR {
       background: yellow;
     }
+  }
+  &-Toggle {
+    font-size: 1.5rem;
   }
 }
