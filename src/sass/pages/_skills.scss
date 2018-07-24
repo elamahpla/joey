@@ -1,4 +1,22 @@
 .Skills {
-  background: #442727;
+  background: #2070d8;
   @include placement;
+  display: grid;
+  grid-template-rows: 5rem max-content;
+  grid-template-columns: repeat(5, 15rem);
+  justify-items: center;
+  font-size: 1.5rem;
+  &-CSS {
+    grid-row: 2;
+    grid-column: 3;
+  }
+  &-JavaScript {
+    grid-row: 2;
+    grid-column: 5;
+  }
+}
+
+#one {
+  width: 10rem;
+  height: 10rem;
 }

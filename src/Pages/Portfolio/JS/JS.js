@@ -4,6 +4,7 @@ import CalorieCounter from './CalorieCounter/CalorieCounter';
 import FilterableList from './FilterableList/FilterableList';
 import GitHubSearch from './GitHubtSearch/GitHubSearch';
 import ImageSlider from './ImageSlider/ImageSlider';
+import ImageGallery from './ImageGallery/ImageGallery';
 
 const JS = () => (
   <div>
@@ -14,6 +15,8 @@ const JS = () => (
     <FilterableList />
     <br/>
     <GitHubSearch />
+    <br/>
+    <ImageGallery />
     <br/>
     <ImageSlider />
     <br/>
