@@ -3,16 +3,25 @@
   @include placement;
   display: grid;
   grid-template-rows: 5rem max-content;
-  grid-template-columns: repeat(5, 15rem);
+  grid-template-columns: repeat(5, 20%);
   justify-items: center;
   font-size: 1.5rem;
+  text-align: center;
+  &-HTML {
+    grid-row: 2;
+    grid-column: 1;
+  }
   &-CSS {
     grid-row: 2;
-    grid-column: 3;
+    grid-column: 2;
   }
   &-JavaScript {
     grid-row: 2;
-    grid-column: 5;
+    grid-column: 3;
+  }
+  &-React {
+    grid-row: 2;
+    grid-column: 4;
   }
 }
 

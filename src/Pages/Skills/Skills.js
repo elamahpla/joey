@@ -2,13 +2,26 @@ import React from 'react';
 
 const Skills = () => (
   <div className="Skills">
+    <div className="Skills-HTML">
+      <img id="one" src="https://i.imgur.com/KsnPOZe.png" alt=""/>
+      <ul>
+        <li>SEO</li>
+        <li>Readable Markup</li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
     <div className="Skills-CSS">
       <img id="one" src="https://drive.google.com/uc?id=1rg_fmn6tD3-BKA1xZcuHZ59GUIIxdgSB" alt=""/>
       <ul>
-        <li>SCSS</li>
+        <li>SCSS/SASS</li>
+        <li>Compiling SCSS</li>
         <li>Grid</li>
         <li>FlexBox</li>
-        <li></li>
+        <li>Bootstrap</li>
+        <li>Mobile Friendly Websites</li>
+        <li>Fully Responsive Websites</li>
       </ul>
     </div>
     <div className="Skills-JavaScript">
@@ -17,10 +30,18 @@ const Skills = () => (
         <li>Vanilla JS</li>
         <li>ES6 JS</li>
         <li>jQuery</li>
+        <li>Axios</li>
+        <li>fetch</li>
       </ul>
     </div>
     <div className="Skills-React">
-      React
+      <ul>
+        <li>Managing State</li>
+        <li>Creating Reusable Components</li>
+        <li>Writing Readable Code</li>
+        <li>React Router</li>
+        <li></li>
+      </ul>
     </div>
   </div>
 );
