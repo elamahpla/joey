@@ -1,5 +1,8 @@
 import React from 'react';
 import Websites from './Websites/Websites';
+import CalorieCounter from './JS/CalorieCounter/CalorieCounter';
+import BookMarker from './JS/Bookmarker/Bookmarker';
+import FilterableList from './JS/FilterableList/FilterableList';
 
 const Portfolio = () => (
   <div className="Portfolio">
@@ -10,7 +13,9 @@ const Portfolio = () => (
       {/* Two */}
     </div>
     <div className="Portfolio-JS">
-      {/* Three */}
+      <BookMarker />
+      <CalorieCounter />
+      <FilterableList />
     </div>
     <div className="Portfolio-Other">
       {/* Four */}
