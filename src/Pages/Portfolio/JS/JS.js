@@ -8,6 +8,9 @@ import ImageGallery from './ImageGallery/ImageGallery';
 
 const JS = () => (
   <div>
+    JavaScript Projects
+    <hr/>
+    <br/>
     <BookMarker />
     <br/>
     <CalorieCounter />

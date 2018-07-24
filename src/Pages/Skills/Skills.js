@@ -43,6 +43,14 @@ const Skills = () => (
         <li></li>
       </ul>
     </div>
+    <div className="Skills-Other">
+      <ul>
+        <li>Webpack</li>
+        <li>Babel</li>
+        <li>NPM</li>
+        <li>Version Control/GitHub</li>
+      </ul>
+    </div>
   </div>
 );
 

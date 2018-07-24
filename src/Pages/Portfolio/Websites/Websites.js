@@ -7,6 +7,9 @@ class Websites extends Component {
   render() {
     return (
       <div>
+        Websites
+        <hr/>
+        <br/>
         <JR />
         <br/>
         <STC />
