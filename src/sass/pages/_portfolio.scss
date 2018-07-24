@@ -3,7 +3,7 @@
   @include placement;
   display: grid;
   // grid-template-columns: min-content;
-  grid-template-rows: max-content;
+  grid-template-rows: 5rem max-content;
   grid-template-columns: repeat(5, 25rem);
   // grid-template-rows: 5rem 1fr;
   &-Websites {
