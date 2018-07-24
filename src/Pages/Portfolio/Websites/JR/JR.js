@@ -22,14 +22,13 @@ class JR extends Component {
           />
         </a>
         <Button
-          id="one"
           className="Portfolio-Button-JR"
           onClick={this.handleToggleVisibility}
         >
             {this.state.visibility ? <p>Solution:</p> : <p>Problem:</p>}
         </Button>
         {this.state.visibility && (
-          <div>
+          <div className="Portfolio-Toggle">
             <p>test</p>
           </div>
         )}

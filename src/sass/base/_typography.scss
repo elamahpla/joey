@@ -19,3 +19,11 @@ img {
   width: 30rem;
   height: 20rem;
 }
+
+// I'm placing this text here so that it isn't cluttering up the _portfolio.scss file. I suppose I could just put in there
+// But I think it fits here nicely.
+.Portfolio {
+  &-Toggle {
+    font-size: 1.5rem;
+  }
+}

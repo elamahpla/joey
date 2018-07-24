@@ -27,7 +27,7 @@ class SSC extends Component {
             {this.state.visibility ? <p>Solution:</p> : <p>Problem:</p>}
         </Button>
         {this.state.visibility && (
-          <div>
+          <div className="Portfolio-Toggle">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi sint sed deserunt vero esse rem facere porro fuga quo molestias.</p>
           </div>
         )}
