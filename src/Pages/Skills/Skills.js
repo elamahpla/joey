@@ -2,16 +2,6 @@ import React from 'react';
 
 const Skills = () => (
   <div className="Skills">
-    <div className="Skills-HTML">
-      <img id="one" src="https://i.imgur.com/KsnPOZe.png" alt=""/>
-      <ul>
-        <li>SEO</li>
-        <li>Readable Markup</li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
-    </div>
     <div className="Skills-CSS">
       <img id="one" src="https://drive.google.com/uc?id=1rg_fmn6tD3-BKA1xZcuHZ59GUIIxdgSB" alt=""/>
       <ul>
@@ -35,12 +25,12 @@ const Skills = () => (
       </ul>
     </div>
     <div className="Skills-React">
+      <img id="one" src="https://drive.google.com/uc?id=1FBgXocWb_IzykA0i5urkOgVwXN2XJ1IO" alt=""/>
       <ul>
-        <li>Managing State</li>
+        <li>Maintaining Efficient Workflow</li>
         <li>Creating Reusable Components</li>
-        <li>Writing Readable Code</li>
         <li>React Router</li>
-        <li></li>
+        <li>Testing/Jasmine</li>
       </ul>
     </div>
     <div className="Skills-Other">
@@ -49,6 +39,16 @@ const Skills = () => (
         <li>Babel</li>
         <li>NPM</li>
         <li>Version Control/GitHub</li>
+        <li>Command Line</li>
+      </ul>
+    </div>
+    <div className="Skills-Soft">
+      <ul>
+        <li>Communication</li>
+        <li>Problem Solving</li>
+        <li>Teamwork</li>
+        <li>Time Management</li>
+        <li>Knowing When To Ask For Help</li>
       </ul>
     </div>
   </div>
