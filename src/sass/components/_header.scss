@@ -6,7 +6,7 @@
   // display: flex;
   // align-content: flex-start;
   display: grid;
-  grid-template-columns: repeat(5, max-content) 1fr;
+  grid-template-columns: repeat(5, max-content) 1fr .1rem;
   position: fixed;
   top: 0;
   left: 0;
@@ -36,21 +36,27 @@
     grid-column: 4;
     @include headerRoll;
     &:hover {
-      background: #360542;
+      background: $darkRed;
+    }
+    &-Active {
+      background: $darkRed;
     }
   }
   &-Contact {
     grid-column: 5;
     @include headerRoll;
     &:hover {
-      background: #1bbd23;
+      background: $darkGrey;
+    }
+    &-Active {
+      background: $darkGrey;
     }
   }
   &-Line {
     grid-column: 6;
     align-self: center;
     height: .1rem;
-    width: 98%;
+    width: min-content;
     background: $headerWhite;
   }
 }

@@ -15,11 +15,11 @@ const Header = () => (
       <span className="Header-Skills-Visible">Skills</span>
       <span className="Header-Skills-Invisible">Skills</span>
     </NavLink>
-    <NavLink className="Header-Portfolio" to="/portfolio">
+    <NavLink activeClassName="Header-Portfolio-Active" className="Header-Portfolio" to="/portfolio">
       <span className="Header-Portfolio-Visible">Portfolio</span>
       <span className="Header-Portfolio-Invisible">Portfolio</span>
     </NavLink>
-    <NavLink className="Header-Contact" to="/contact">
+    <NavLink activeClassName="Header-Contact-Active" className="Header-Contact" to="/contact">
       <span className="Header-Contact-Visible">Contact</span>
       <span className="Header-Contact-Invisible">Contact</span>
     </NavLink>

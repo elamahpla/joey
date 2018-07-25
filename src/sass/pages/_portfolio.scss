@@ -1,5 +1,5 @@
 .Portfolio {
-  background: #360542;
+  background: $darkRed;
   @include placement;
   display: grid;
   // grid-template-columns: min-content;

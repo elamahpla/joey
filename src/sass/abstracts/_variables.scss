@@ -1,7 +1,11 @@
-$darkred: #ff0312;
-$lighter: lighten($darkred, 7%);
+// $darkred: #ff0312;
+// $lighter: lighten($darkred, 7%);
+// This is the worst color ever
 
-$purple: #360542;
-$darkPurple: darken($purple, 5%);
+$red: #8f3a3a;
+$darkRed: darken($red, 10%);
+
+$lightGrey: #afadad;
+$darkGrey: darken($lightGrey, 35%);
 
 $headerWhite: #e2e1e1;
