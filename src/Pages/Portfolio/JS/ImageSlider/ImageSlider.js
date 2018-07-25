@@ -18,7 +18,6 @@ class ImageSlider extends Component {
         <a 
           href="https://github.com/elamahpla/ImageSlider" 
           target="_blank" 
-          rel="nofollow"
         >
           <img
             src="https://i.imgur.com/GT6DB4r.jpg" 

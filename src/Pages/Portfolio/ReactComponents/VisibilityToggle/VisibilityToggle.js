@@ -17,9 +17,9 @@ class VisibilityToggle extends Component {
       <div>
         <a 
           href="https://github.com/elamahpla/ReusableComponents" 
-          target="_blank" 
-          rel="nofollow"
+          target="_blank"
         >
+        <img src="https://i.imgur.com/wT0CYy2.png" alt=""/>
         </a>
         <Button
           className="Portfolio-Button-VisibilityToggle"
