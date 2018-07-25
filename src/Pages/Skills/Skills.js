@@ -30,7 +30,7 @@ const Skills = () => (
         <li>Maintaining Efficient Workflow</li>
         <li>Creating Reusable Components</li>
         <li>React Router</li>
-        <li>Testing/Jasmine</li>
+        <li>Testing/Jest</li>
       </ul>
     </div>
     <div className="Skills-Other">
@@ -48,7 +48,6 @@ const Skills = () => (
         <li>Problem Solving</li>
         <li>Teamwork</li>
         <li>Time Management</li>
-        <li>Knowing When To Ask For Help</li>
       </ul>
     </div>
   </div>
