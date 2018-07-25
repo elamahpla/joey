@@ -8,7 +8,7 @@ const About = () => (
     <RotatingCardTwo />
     <div className="About-Center">
       <h1>Hey, I'm Joey</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis accusamus quisquam ex id doloremque fugit earum quae! Necessitatibus, est? Reprehenderit in, fugiat reiciendis accusantium fuga quibusdam qui unde provident enim nisi distinctio saepe aliquam tempora aperiam eligendi ducimus hic explicabo maiores et. Aliquid labore dolores libero quasi quis architecto nobis debitis dicta iusto quia accusantium, tempore repellendus earum ratione cum!</p>
+      <p>I'm a self-taught Front-End Web Developer. </p>
     </div>
     <div className="About-Left">
       <h1>Interests</h1>

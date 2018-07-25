@@ -1,4 +1,3 @@
-// Styling for my RotatingCard. This will >ONLY< be shown on the main page.
 .RotatingCard {
   -moz-perspective: 150rem;
   perspective: 150rem;
@@ -6,9 +5,8 @@
   width: 85%;
   grid-column: 1;
   grid-row: 2;
-  padding: 0 1rem 1rem 1rem;
   &-Side {
-    background: #000;
+    background: brown;
     font-size: 2.2rem;
     color: white;
     height: 100%;
@@ -19,20 +17,14 @@
     left: 0;
     backface-visibility: hidden;
     overflow: hidden;
-    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, .15);
   }
   &-Side-Front {
-    height: 100%;
-    width: 100%;
+    padding: 0 1rem 1rem 1rem;
   }
   &-Side-Back {
     transform: rotateY(180deg);
-    width: 100%;
     &-1 {
-      background: red;
-      background-position: center;
-      background-size: 40rem 30rem;
-      background-repeat: no-repeat;
+      background: #222222;
     }
   }
   &:hover &-Side-Front {
