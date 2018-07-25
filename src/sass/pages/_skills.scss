@@ -1,5 +1,5 @@
 .Skills {
-  background: #2070d8;
+  background: $skillsDarkBlue;
   @include placement;
   display: grid;
   grid-template-rows: 5rem max-content;

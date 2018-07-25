@@ -15,21 +15,30 @@
     grid-column: 1;
     @include headerRoll;
     &:hover {
-      background: #a32020;
+      background: $homeGreenDark;
+    }
+    &-Active {
+      background: $homeGreenDark;
     }
   }
   &-About {
     grid-column: 2;
     @include headerRoll;
     &:hover {
-      background: #e04618;
+      background: $aboutPurpleDark;
+    }
+    &-Active {
+      background: $aboutPurpleDark;
     }
   }
   &-Skills {
     grid-column: 3;
     @include headerRoll;
     &:hover {
-      background: #442727;
+      background: $skillsDarkBlue;
+    }
+    &-Active {
+      background: $skillsDarkBlue;
     }
   }
   &-Portfolio {

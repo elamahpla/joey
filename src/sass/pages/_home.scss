@@ -1,13 +1,11 @@
 .Home {
-  background: linear-gradient(225deg, #000c24, #062361, #0838a6, #004ef1);
+  background: $homeGreenDark;
   grid-column: 1 / -1;
   grid-row: 2 / -1;
   display: grid;
   grid-template-columns: repeat(10, 1fr);
   grid-template-rows: 15rem repeat(4, 1fr) 15rem repeat(2, 20rem);
-  // clip-path: polygon(100% 100%, 100% 0, 0 0);
   &-Two {
-    background: rgba(0, 0, 0, .45);
     grid-column: 2 / span 8;
     grid-row: 2 / span 5;
   }
@@ -20,6 +18,7 @@
 //   grid-row: 2 / -1;
 //   clip-path: polygon(0 100%, 100% 0, 0 0);
 //   z-index: 5;
+//   clip-path: polygon(100% 100%, 100% 0, 0 0);
 // }
 
 // .DeadSelector {
