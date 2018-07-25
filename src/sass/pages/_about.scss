@@ -5,14 +5,12 @@
   display: grid;
   grid-template-columns: 1fr 50rem 1fr;
   grid-template-rows: 2.5rem 30rem 2.5rem 1fr;
-  justify-items: center;
   & h1 {
     text-align: center;
   }
   & p {
     font-size: 1.8rem;
     padding: 0 1rem 1rem 1rem;
-
   }
   &-Center {
     grid-column: 2;

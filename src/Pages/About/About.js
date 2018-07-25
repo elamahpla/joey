@@ -1,14 +1,11 @@
 import React from 'react';
-import RotatingCard from '../../Components/RotatingCard/RotatingCard';
-import RotatingCardTwo from '../../Components/RotatingCard/RotatingCardTwo';
 
 const About = () => (
   <div className="About">
-    <RotatingCard />
-    <RotatingCardTwo />
     <div className="About-Center">
       <h1>Hey, I'm Joey</h1>
-      <p>I'm a self-taught Front-End Web Developer. </p>
+      <p>I'm a self-taught Front-End Web Developer. I enjoy writing code and making cool things. I'm eager to expand my knowledge and make even cooler things.</p>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat est eligendi ducimus error deserunt, officiis natus reiciendis sint asperiores molestias?</p>
     </div>
     <div className="About-Left">
       <h1>Interests</h1>
