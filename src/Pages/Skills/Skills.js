@@ -10,6 +10,8 @@ const Skills = () => (
         <li>Grid</li>
         <li>FlexBox</li>
         <li>Bootstrap</li>
+        <li>Materialize CSS</li>
+        <li>CSS Architecture</li>
         <li>Mobile Friendly Websites</li>
         <li>Fully Responsive Websites</li>
       </ul>
@@ -30,12 +32,14 @@ const Skills = () => (
         <li>Maintaining Efficient Workflow</li>
         <li>Creating Reusable Components</li>
         <li>React Router</li>
-        <li>Testing/Jest</li>
+        <li>Jest</li>
+        <li>GatsbyJS</li>
       </ul>
     </div>
     <div className="Skills-Other">
       <ul>
         <li>Webpack</li>
+        <li>Parcel</li>
         <li>Babel</li>
         <li>NPM</li>
         <li>Version Control/GitHub</li>
