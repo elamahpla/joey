@@ -14,9 +14,29 @@ const About = () => (
         Generally I'm pretty laxed. I like to be engaging at times but like most people, I also enjoy my own personal alone time to reflect. 
         Dogs & Cats are equal in my book, I like them both the same amount.
       </p>
+      <br/>
+      <hr/>
+      <br/>
+    </div>
+    <div className="About-Middle">
+      <br/>
+      <h1>The Past</h1>
+      <p>
+        I think people are often scared to talk about their past. Airing their dirty laundry, so to speak. I find that all my prior experiences in life
+        both negative and positive have been incredible learning experiences. I generally try to use every random encounter or event in my life to grow as a 
+        person. 
+      </p>
+      <br/>
+      <p>
+        Through my life, I've had opportunities to grow and become more knowledgeable through my years. I can only hope that as I begin my journey as a 
+        professional web-developer, I continue to grow. :D
+      </p>
+      <br/>
+      <hr/>
+      <br/>
     </div>
     <div className="About-Bottom">
-      <h1>The Future</h1>
+    <h1>The Future</h1>
       <p>
         When I started this journey, I was very intimidated by the amount of information that I had to process. It was (and still is sometimes)
         overwhelming. With that said, I now feel comfortable with what I know and want to continue to learn about coding and learn about coding technologies.
@@ -26,6 +46,9 @@ const About = () => (
         I could see myself, years down the road, making amazing websites and tools for people to use and enjoy. I genuinely am looking forward to growing not only
         as a Web-Developer, but a person as well. I feel like I've stumbled across something in life I can finally enjoy.
       </p>
+      <br/>
+      <hr/>
+      <br/>    
     </div>
   </div>
 );

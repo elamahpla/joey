@@ -5,9 +5,7 @@ import React from 'react';
 
 const Home = () => (
   <div className="Home">
-    <div className="Home-Two">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, magnam. Repellat expedita saepe eveniet doloremque voluptates nam suscipit exercitationem vel?
-    </div>
+    hi
   </div>
 );
 
