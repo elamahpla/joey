@@ -2,12 +2,7 @@ import React from 'react';
 
 const About = () => (
   <div className="About">
-    <div className="About-Center">
-      <h1>Hey, I'm Joey</h1>
-      <p>I'm a self-taught Front-End Web Developer. I enjoy writing code and making cool things. I'm eager to expand my knowledge and make even cooler things.</p>
-      <p></p>
-    </div>
-    <div className="About-Left">
+    <div className="About-Top">
       <h1>Interests</h1>
       <p>I have varying interests, some of which include watching movies. From Bladerunner to a Silent Voice, I enjoy a great movies
         I also enjoy writing code and learning about code to write even more code! Speaking of reading, I love a good fatnasy book. My favorite is
@@ -20,10 +15,16 @@ const About = () => (
         Dogs & Cats are equal in my book, I like them both the same amount.
       </p>
     </div>
-    <div className="About-Right">
+    <div className="About-Bottom">
       <h1>The Future</h1>
       <p>
-        What d
+        When I started this journey, I was very intimidated by the amount of information that I had to process. It was (and still is sometimes)
+        overwhelming. With that said, I now feel comfortable with what I know and want to continue to learn about coding and learn about coding technologies.
+      </p>
+      <br/>
+      <p>
+        I could see myself, years down the road, making amazing websites and tools for people to use and enjoy. I genuinely am looking forward to growing not only
+        as a Web-Developer, but a person as well. I feel like I've stumbled across something in life I can finally enjoy.
       </p>
     </div>
   </div>
