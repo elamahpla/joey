@@ -8,7 +8,7 @@ class MenuContainer extends Component {
   }
   handleMouseDown = (event) => {
     this.toggleMenu()
-    event.stopPropagation()
+    event.preventDefault()
   }
   toggleMenu = () => {
     this.setState({visible: !this.state.visible})
