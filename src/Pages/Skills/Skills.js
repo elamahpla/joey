@@ -37,6 +37,7 @@ const Skills = () => (
       </ul>
     </div>
     <div className="Skills-Other">
+      <img src="https://raw.githubusercontent.com/webpack/media/master/logo/icon-square-big.png" alt="" id="one"/>
       <ul>
         <li>Webpack</li>
         <li>Parcel</li>
