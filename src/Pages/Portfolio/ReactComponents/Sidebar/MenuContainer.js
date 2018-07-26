@@ -4,7 +4,7 @@ import Menu from './Menu';
 
 class MenuContainer extends Component {
   state = {
-    visible: true
+    visible: false
   }
   handleMouseDown = (event) => {
     this.toggleMenu()
