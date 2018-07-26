@@ -13,6 +13,8 @@ button {
   padding: .25rem;
   border-radius: 1rem;
   width: 100%;
+  @include buttonHover;
+  color: white;
 }
 
 ul {
@@ -37,6 +39,7 @@ hr {
     font-size: 1.5rem;
     & a {
       font-size: 1.5rem;
+      text-decoration: underline;
     }
   }
   &-H1 {

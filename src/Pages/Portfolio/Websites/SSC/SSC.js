@@ -24,11 +24,20 @@ class SSC extends Component {
         <Button
           className="Portfolio-Button-SSC"
           onClick={this.handleToggleVisibility}>
-            {this.state.visibility ? <p>Solution:</p> : <p>Problem:</p>}
+            {this.state.visibility ? <p>Issues:</p> : <p>Sweetest Southern Creations:</p>}
         </Button>
         {this.state.visibility && (
           <div className="Portfolio-Toggle">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi sint sed deserunt vero esse rem facere porro fuga quo molestias.</p>
+            <p>
+              This is the second iteration of a friend's website. She owns and operates the company Sweetest Southern Creations and wanted to have
+              an online presence. So, I started by creating <a href="https://github.com/Joey-Robinson/SweetSouthernCreations">the first version of the website</a> which I was
+              displeased with.
+            </p>
+            <br/>
+            <p>
+              Then, I created <a href="https://github.com/Joey-Robinson/SweetestSouthernCreations">the next version</a> of the website. This is the current 
+              version which I will update when the assets are in hand.
+            </p>
           </div>
         )}
       </div>

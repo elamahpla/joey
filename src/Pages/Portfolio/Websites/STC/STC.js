@@ -27,11 +27,16 @@ class STC extends Component {
         <Button
           className="Portfolio-Button-STC"
           onClick={this.handleToggleVisibility}>
-            {this.state.visibility ? <p>Solution:</p> : <p>Problem:</p>}
+            {this.state.visibility ? <p>Issues:</p> : <p>Mysidia:</p>}
         </Button>
         {this.state.visibility && (
           <div className="Portfolio-Toggle">
-            <p>I needed a personal website to showcase what I've done and what I can do.</p>
+            <p>
+              This was a website made for a Free Company I was in (FF14). I started this and I feel as if I was a bit too eager to get things done.
+              I won't say the <a href="https://github.com/Joey-Robinson/MysidiaSite">website was rushed,</a> but I will say that I was a big too headstrong
+              in my decision making. A majority of the website has fixed positioning on the components, and I think that creates an unnatural feel and 
+              flow.
+            </p>
           </div>
         )}
       </div>

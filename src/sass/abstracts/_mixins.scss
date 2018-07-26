@@ -31,6 +31,20 @@
   }
 }
 
+@mixin buttonHover {
+  box-shadow: .25rem .35rem black;
+  margin-bottom: .5rem;
+  &:hover {
+    box-shadow: .5rem .7rem black;
+    transform: translateY(-.5rem);
+    transition: all .3s;
+  }
+  &:active {
+    transform: translateY(.1rem);
+    transition: all .3s;
+  }
+}
+
 @mixin placement {
   grid-column: 1 / -1;
   grid-row: 2 / -1;
