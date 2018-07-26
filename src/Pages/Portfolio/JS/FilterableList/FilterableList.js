@@ -25,11 +25,13 @@ class FilterableList extends Component {
           className="Portfolio-Button"
           onClick={this.handleToggleVisibility}
         >
-            {this.state.visibility ? <p>Solution:</p> : <p>Problem:</p>}
+            {this.state.visibility ? <p>Thoughts:</p> : <p>Filterable List:</p>}
         </Button>
         {this.state.visibility && (
           <div className="Portfolio-Toggle">
-            <p>test</p>
+            <p>
+              Filterable contact list. Uses inline JS. No localStorage
+            </p>
           </div>
         )}
       </div>

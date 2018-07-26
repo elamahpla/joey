@@ -22,14 +22,16 @@ class BookMarker extends Component {
           />
         </a>
         <Button
-          className="Portfolio-Button"
+          className="Portfolio-Button-Bookmarker"
           onClick={this.handleToggleVisibility}
         >
-            {this.state.visibility ? <p>Solution:</p> : <p>Problem:</p>}
+            {this.state.visibility ? <p>Thoughts:</p> : <p>Bookmarker:</p>}
         </Button>
         {this.state.visibility && (
           <div className="Portfolio-Toggle">
-            <p>test</p>
+            <p>
+              This is a simple Bookmarking app with Vanilla JS. Uses localStorage to save your bookmarks.
+            </p>
           </div>
         )}
       </div>

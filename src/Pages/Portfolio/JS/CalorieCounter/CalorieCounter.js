@@ -22,14 +22,16 @@ class CalorieCounter extends Component {
           />
         </a>
         <Button
-          className="Portfolio-Button"
+          className="Portfolio-Button-Counter"
           onClick={this.handleToggleVisibility}
         >
-            {this.state.visibility ? <p>Solution:</p> : <p>Problem:</p>}
+            {this.state.visibility ? <p>Thoughts:</p> : <p>Calorie Counter:</p>}
         </Button>
         {this.state.visibility && (
           <div className="Portfolio-Toggle">
-            <p>test</p>
+            <p>
+              Just a simple Calorie Counter. Uses localStorage as well.
+            </p>
           </div>
         )}
       </div>
