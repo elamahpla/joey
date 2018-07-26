@@ -5,7 +5,7 @@ import MenuContainer from './Sidebar/MenuContainer';
 
 const ReactComponents = () => (
   <div>
-    React Components
+    <h1 className="Portfolio-H1">React Components</h1>
     <hr/>
     <br/>
     <ReusableButton />

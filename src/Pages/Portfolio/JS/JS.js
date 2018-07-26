@@ -8,7 +8,7 @@ import ImageGallery from './ImageGallery/ImageGallery';
 
 const JS = () => (
   <div>
-    JavaScript Projects
+    <h1 className="Portfolio-H1">JavaScript Projects</h1>
     <hr/>
     <br/>
     <BookMarker />

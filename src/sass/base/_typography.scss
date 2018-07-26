@@ -26,9 +26,15 @@ img {
 }
 
 // I'm placing this text here so that it isn't cluttering up the _portfolio.scss file. I suppose I could just put in there
-// But I think it fits here nicely.
+// But I think it fits here nicely. Same with the H1, I didn't feel like using this in the file was needed, so instead I put
+// It (the H1) here.
 .Portfolio {
   &-Toggle {
     font-size: 1.5rem;
+  }
+  &-H1 {
+    padding: 0;
+    margin: 0;
+    text-align: center;
   }
 }

@@ -7,7 +7,7 @@ class Websites extends Component {
   render() {
     return (
       <div>
-        Websites
+        <h1 className="Portfolio-H1">Websites</h1>
         <hr/>
         <br/>
         <JR />

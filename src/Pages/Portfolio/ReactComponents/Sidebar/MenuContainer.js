@@ -7,11 +7,11 @@ class MenuContainer extends Component {
     visible: false
   }
   handleMouseDown = (event) => {
-    this.toggleMenu()
-    event.preventDefault()
+    this.toggleMenu();
+    event.preventDefault();
   }
   toggleMenu = () => {
-    this.setState({visible: !this.state.visible})
+    this.setState({visible: !this.state.visible});
   }
   render() {
     return (
@@ -24,8 +24,8 @@ class MenuContainer extends Component {
           menuVisibility={this.state.visible}
         />
       </div>
-    )
+    );
   }
-}
+};
  
 export default MenuContainer;
