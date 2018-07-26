@@ -1,5 +1,8 @@
 import React from 'react';
 
+// This is the About Page. The content here seems to be acceptable, for now. I could possibly add a bit more, on the side, maybe?
+// But I feel like this is enough information.
+
 const About = () => (
   <div className="About">
     <div className="About-Top">
@@ -16,10 +19,8 @@ const About = () => (
       </p>
       <br/>
       <hr/>
-      <br/>
     </div>
     <div className="About-Middle">
-      <br/>
       <h1>The Past</h1>
       <p>
         I think people are often scared to talk about their past. Airing their dirty laundry, so to speak. I find that all my prior experiences in life
@@ -33,7 +34,6 @@ const About = () => (
       </p>
       <br/>
       <hr/>
-      <br/>
     </div>
     <div className="About-Bottom">
     <h1>The Future</h1>
