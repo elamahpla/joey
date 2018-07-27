@@ -3,6 +3,7 @@ import ReusableButton from './Button/Button';
 import VisibilityToggle from './VisibilityToggle/VisibilityToggle';
 import MenuContainer from './Sidebar/MenuContainer';
 import Modal from './Modal/Modal';
+import Todo from './Todo/Todo'; 
 
 const ReactComponents = () => (
   <div>
@@ -16,6 +17,8 @@ const ReactComponents = () => (
     <MenuContainer />
     <br/>
     <Modal />
+    <br/>
+    <Todo />
   </div>
 );
 
