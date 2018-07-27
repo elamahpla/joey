@@ -2,6 +2,7 @@ import React from 'react';
 import ReusableButton from './Button/Button';
 import VisibilityToggle from './VisibilityToggle/VisibilityToggle';
 import MenuContainer from './Sidebar/MenuContainer';
+import Modal from './Modal/Modal';
 
 const ReactComponents = () => (
   <div>
@@ -13,6 +14,8 @@ const ReactComponents = () => (
     <VisibilityToggle />
     <br/>
     <MenuContainer />
+    <br/>
+    <Modal />
   </div>
 );
 
