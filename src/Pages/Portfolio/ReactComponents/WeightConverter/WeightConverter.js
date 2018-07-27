@@ -29,8 +29,11 @@ class WeightConverter extends Component {
         />
         <div className="Weight-Result">
           <p>Grams: {this.state.grams}</p>
+          <hr/>
           <p>Kilograms: {this.state.kilograms}</p>
+          <hr/>
           <p>Ounces: {this.state.ounces}</p>
+          <hr/>
         </div>
       </div>
     )
