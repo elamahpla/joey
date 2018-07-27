@@ -22,7 +22,7 @@ class FilterableList extends Component {
           />
         </a>
         <Button
-          className="Portfolio-Button"
+          className="Portfolio-Button-Filterable"
           onClick={this.handleToggleVisibility}
         >
             {this.state.visibility ? <p>Thoughts:</p> : <p>Filterable List:</p>}

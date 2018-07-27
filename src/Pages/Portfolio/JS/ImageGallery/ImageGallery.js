@@ -22,14 +22,17 @@ class ImageGallery extends Component {
           />
         </a>
         <Button
-          className="Portfolio-Button"
+          className="Portfolio-Button-Gallery"
           onClick={this.handleToggleVisibility}
         >
-            {this.state.visibility ? <p>Solution:</p> : <p>Problem:</p>}
+            {this.state.visibility ? <p>Thoughts:</p> : <p>Image Gallery:</p>}
         </Button>
         {this.state.visibility && (
           <div className="Portfolio-Toggle">
-            <p>test</p>
+            <p>
+              I made this Image Gallery for a dungeon I was a part of where knowing the location of the hidden chest is can reward you 
+              with various treasures. So I made an image gallery using CSS Grid and some JS and hosted it on gh-pages. 
+            </p>
           </div>
         )}
       </div>

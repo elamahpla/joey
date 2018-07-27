@@ -26,14 +26,16 @@ class GitHubSearch extends Component {
           />
         </a>
         <Button
-          className="Portfolio-Button"
+          className="Portfolio-Button-GitHub"
           onClick={this.handleToggleVisibility}
         >
-            {this.state.visibility ? <p>Solution:</p> : <p>Problem:</p>}
+            {this.state.visibility ? <p>Thoughts:</p> : <p>GitHub Search:</p>}
         </Button>
         {this.state.visibility && (
           <div className="Portfolio-Toggle">
-            <p>test</p>
+            <p>
+              This is (another) GitHub search app. I sort of like this one a lot. I enjoy working with API's, despite me being (at times) overwhelmed by them
+            </p>
           </div>
         )}
       </div>
