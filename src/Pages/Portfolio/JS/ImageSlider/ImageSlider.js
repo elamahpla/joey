@@ -25,14 +25,16 @@ class ImageSlider extends Component {
           />
         </a>
         <Button
-          className="Portfolio-Button"
+          className="Portfolio-Button-Slider"
           onClick={this.handleToggleVisibility}
         >
-            {this.state.visibility ? <p>Solution:</p> : <p>Problem:</p>}
+            {this.state.visibility ? <p>Thoughts:</p> : <p>Image Slider:</p>}
         </Button>
         {this.state.visibility && (
           <div className="Portfolio-Toggle">
-            <p>test</p>
+            <p>
+              Full screen image slider
+            </p>
           </div>
         )}
       </div>

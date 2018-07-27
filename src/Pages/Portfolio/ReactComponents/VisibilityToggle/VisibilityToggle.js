@@ -25,11 +25,14 @@ class VisibilityToggle extends Component {
           className="Portfolio-Button-VisibilityToggle"
           onClick={this.handleToggleVisibility}
         >
-            {this.state.visibility ? <p>Solution:</p> : <p>Problem:</p>}
+            {this.state.visibility ? <p>This is great:</p> : <p>Visibility Toggle:</p>}
         </Button>
         {this.state.visibility && (
           <div className="Portfolio-Toggle">
-            <p>test</p>
+            <p>
+              So this component basically allows me to save space and hide content until it's needed. If you're reading this, look at the
+              other buttons here, most of them do the same as this. The other content (below) is pushed down, and still creates a nice effect.
+            </p>
           </div>
         )}
       </div>

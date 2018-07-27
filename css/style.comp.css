@@ -13,36 +13,239 @@ body {
   font-weight: 300;
   line-height: 1.6;
   background: #222;
+  color: white;
+  font-family: 'IBM Plex Serif', serif; }
+
+a {
+  text-decoration: none;
+  color: #e2e1e1;
+  font-size: 2rem;
+  margin: 0;
+  padding: 0; }
+
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: .25rem;
+  border-radius: 1rem;
+  width: 100%;
+  box-shadow: .25rem .35rem black;
+  margin-bottom: .5rem;
   color: white; }
+  button:hover {
+    box-shadow: .5rem .7rem black;
+    transform: translateY(-0.5rem);
+    transition: all .3s; }
+  button:active {
+    transform: translateY(0.1rem);
+    transition: all .3s; }
+
+ul {
+  list-style: none;
+  text-align: center; }
+
+img {
+  width: 30rem;
+  height: 20rem; }
+
+hr {
+  box-shadow: .1rem .25rem #000; }
+
+.Portfolio-Toggle {
+  font-size: 1.5rem; }
+  .Portfolio-Toggle a {
+    font-size: 1.5rem;
+    text-decoration: underline; }
+
+.Portfolio-H1 {
+  padding: 0;
+  margin: 0;
+  text-align: center; }
 
 html {
   font-size: 62.5%; }
 
 .Footer {
-  background: linear-gradient(25deg, #000c24, #062361, #0838a6, #004ef1);
+  background: #383030;
   grid-column: 1 / -1;
   grid-row: -1; }
 
 .Header {
-  background: linear-gradient(25deg, #000c24, #062361, #0838a6, #004ef1);
+  background: #383030;
   grid-column: 1 / -1;
   grid-row: 1;
   display: grid;
+  grid-template-columns: repeat(5, max-content) 1fr 0.1rem;
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 3rem;
-  z-index: 3; }
+  width: 100%; }
+  .Header-Home {
+    grid-column: 1;
+    justify-self: center;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    text-align: center; }
+    .Header-Home > * {
+      display: inline-block;
+      height: 100%;
+      width: 100%;
+      transition: all .1s; }
+    .Header-Home-Visible {
+      padding: 1.75rem; }
+    .Header-Home-Invisible {
+      padding: 1.75rem;
+      position: absolute;
+      left: 0;
+      top: -100%; }
+    .Header-Home:hover .Header-Home-Visible {
+      transform: translateY(100%); }
+    .Header-Home:hover .Header-Home-Invisible {
+      top: 0; }
+    .Header-Home:focus {
+      outline: none; }
+    .Header-Home:hover {
+      background: #205520; }
+    .Header-Home-Active {
+      background: #205520; }
+  .Header-About {
+    grid-column: 2;
+    justify-self: center;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    text-align: center; }
+    .Header-About > * {
+      display: inline-block;
+      height: 100%;
+      width: 100%;
+      transition: all .1s; }
+    .Header-About-Visible {
+      padding: 1.75rem; }
+    .Header-About-Invisible {
+      padding: 1.75rem;
+      position: absolute;
+      left: 0;
+      top: -100%; }
+    .Header-About:hover .Header-About-Visible {
+      transform: translateY(100%); }
+    .Header-About:hover .Header-About-Invisible {
+      top: 0; }
+    .Header-About:focus {
+      outline: none; }
+    .Header-About:hover {
+      background: #65134a; }
+    .Header-About-Active {
+      background: #65134a; }
+  .Header-Skills {
+    grid-column: 3;
+    justify-self: center;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    text-align: center; }
+    .Header-Skills > * {
+      display: inline-block;
+      height: 100%;
+      width: 100%;
+      transition: all .1s; }
+    .Header-Skills-Visible {
+      padding: 1.75rem; }
+    .Header-Skills-Invisible {
+      padding: 1.75rem;
+      position: absolute;
+      left: 0;
+      top: -100%; }
+    .Header-Skills:hover .Header-Skills-Visible {
+      transform: translateY(100%); }
+    .Header-Skills:hover .Header-Skills-Invisible {
+      top: 0; }
+    .Header-Skills:focus {
+      outline: none; }
+    .Header-Skills:hover {
+      background: #13427f; }
+    .Header-Skills-Active {
+      background: #13427f; }
+  .Header-Portfolio {
+    grid-column: 4;
+    justify-self: center;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    text-align: center; }
+    .Header-Portfolio > * {
+      display: inline-block;
+      height: 100%;
+      width: 100%;
+      transition: all .1s; }
+    .Header-Portfolio-Visible {
+      padding: 1.75rem; }
+    .Header-Portfolio-Invisible {
+      padding: 1.75rem;
+      position: absolute;
+      left: 0;
+      top: -100%; }
+    .Header-Portfolio:hover .Header-Portfolio-Visible {
+      transform: translateY(100%); }
+    .Header-Portfolio:hover .Header-Portfolio-Invisible {
+      top: 0; }
+    .Header-Portfolio:focus {
+      outline: none; }
+    .Header-Portfolio:hover {
+      background: #6b2b2b; }
+    .Header-Portfolio-Active {
+      background: #6b2b2b; }
+  .Header-Contact {
+    grid-column: 5;
+    justify-self: center;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    text-align: center; }
+    .Header-Contact > * {
+      display: inline-block;
+      height: 100%;
+      width: 100%;
+      transition: all .1s; }
+    .Header-Contact-Visible {
+      padding: 1.75rem; }
+    .Header-Contact-Invisible {
+      padding: 1.75rem;
+      position: absolute;
+      left: 0;
+      top: -100%; }
+    .Header-Contact:hover .Header-Contact-Visible {
+      transform: translateY(100%); }
+    .Header-Contact:hover .Header-Contact-Invisible {
+      top: 0; }
+    .Header-Contact:focus {
+      outline: none; }
+    .Header-Contact:hover {
+      background: #565454; }
+    .Header-Contact-Active {
+      background: #565454; }
+  .Header-Line {
+    grid-column: 6;
+    align-self: center;
+    height: .1rem;
+    width: min-content;
+    background: #e2e1e1; }
 
 .Main {
   background: rgba(34, 34, 34, 0.475);
   border: 1px inset white;
   grid-column: 2 / -1;
-  grid-row: 3 / -1;
+  grid-row: 1 / -1;
   z-index: 2;
-  width: 86.7%;
-  height: 90.35%;
+  width: 75%;
+  height: 90%;
   margin: 0 auto; }
 
 .Sidebar {
@@ -51,12 +254,191 @@ html {
   grid-row: 1 / span 6;
   display: none; }
 
+.MenuContainer {
+  width: 30px;
+  height: 30px;
+  float: right; }
+
+#menuButton {
+  background-color: red;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 5px solid white;
+  outline: none;
+  transition: all .2s ease-in-out; }
+
+#menuButton:hover {
+  background-color: red;
+  cursor: pointer;
+  border: none;
+  transform: scale(1.2, 1.2); }
+
+#menuButton:active {
+  border: none;
+  background-color: red; }
+
+#flyoutMenu {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 12.2vw;
+  height: 100%;
+  background: #383030;
+  position: fixed;
+  top: 0;
+  right: 0;
+  transition: transform 0.3s cubic-bezier(0, 0.52, 0, 1);
+  z-index: 10; }
+
+#flyoutMenu.hide {
+  transform: translate3d(100vw, 0, 0); }
+
+#flyoutMenu.show {
+  transform: translate3d(0vw, 0, 0);
+  overflow: hidden; }
+
 .Hello {
   display: grid;
   grid-template-columns: 5rem 10rem 1fr;
-  grid-template-rows: 3rem 10rem 10rem 20rem 60vw; }
+  grid-template-rows: 6.5rem 10rem 10rem 20rem 60vw; }
+
+.About {
+  background: #65134a;
+  color: white;
+  grid-column: 1 / -1;
+  grid-row: 2 / -1;
+  display: grid;
+  grid-template-columns: 2.5rem 100rem 2.5rem;
+  grid-template-rows: 2.5rem repeat(4, max-content);
+  justify-content: center;
+  grid-gap: 3rem; }
+  .About h1 {
+    text-align: center;
+    text-decoration: underline; }
+  .About p {
+    font-size: 1.8rem; }
+  .About-Top {
+    grid-row: 2;
+    grid-column: 2; }
+  .About-Middle {
+    grid-row: 3;
+    grid-column: 2; }
+  .About-Bottom {
+    grid-row: 4;
+    grid-column: 2; }
 
 .Contact {
-  background: orangered;
+  background: #565454;
   grid-column: 1 / -1;
-  grid-row: 2; }
+  grid-row: 2 / -1;
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: 2.5rem 1fr;
+  font-size: 1.5rem;
+  text-align: center; }
+  .Contact a {
+    font-size: 7rem;
+    padding: 0;
+    margin: 0;
+    text-decoration: underline; }
+  .Contact-GitHub {
+    justify-self: center;
+    grid-row: 2;
+    grid-column: 1; }
+    .Contact-GitHub a {
+      color: #7cbb00; }
+  .Contact-Twitter {
+    grid-row: 2;
+    grid-column: 2; }
+    .Contact-Twitter a {
+      color: #1da1f2; }
+  .Contact-LinkedIn {
+    grid-row: 2;
+    grid-column: 3; }
+    .Contact-LinkedIn a {
+      color: #ffbb00; }
+  .Contact-Email {
+    grid-row: 2;
+    grid-column: 4; }
+    .Contact-Email a {
+      color: #ea4335; }
+
+.Home {
+  background: #205520;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 2.5rem repeat(6, 25rem);
+  text-align: center;
+  font-size: 1.5rem; }
+  .Home-Greeting {
+    grid-column: 2;
+    grid-row: 2; }
+  .Home-Welcome {
+    grid-column: 2;
+    grid-row: 3; }
+
+.Portfolio {
+  background: #6b2b2b;
+  grid-column: 1 / -1;
+  grid-row: 2 / -1;
+  display: grid;
+  grid-template-columns: 30rem 30rem 30rem; }
+  .Portfolio-Button-JR {
+    background: #4d2f79; }
+  .Portfolio-Button-STC {
+    background: cornflowerblue; }
+  .Portfolio-Button-SSC {
+    background: #222; }
+  .Portfolio-Button-Bookmarker {
+    background: #76ca6b;
+    color: black; }
+  .Portfolio-Button-Counter {
+    background: #348290; }
+  .Portfolio-Button-Filterable {
+    background: #6766af; }
+  .Portfolio-Button-GitHub {
+    background: coral;
+    color: black; }
+  .Portfolio-Button-Gallery {
+    background: #a82f6c;
+    color: white; }
+  .Portfolio-Button-Slider {
+    background: #2b464e; }
+  .Portfolio-Button-VisibilityToggle {
+    background: #556b2f; }
+  .Portfolio-Websites {
+    grid-column: 1; }
+  .Portfolio-JS {
+    grid-column: 3; }
+  .Portfolio-Components {
+    grid-column: 4; }
+
+.Skills {
+  background: #13427f;
+  grid-column: 1 / -1;
+  grid-row: 2 / -1;
+  display: grid;
+  grid-template-rows: 5rem max-content;
+  grid-template-columns: repeat(5, 20%);
+  justify-items: center;
+  font-size: 1.5rem;
+  text-align: center; }
+  .Skills-CSS {
+    grid-row: 2;
+    grid-column: 1; }
+  .Skills-JavaScript {
+    grid-row: 2;
+    grid-column: 2; }
+  .Skills-React {
+    grid-row: 2;
+    grid-column: 3; }
+  .Skills-Other {
+    grid-row: 2;
+    grid-column: 4; }
+  .Skills-Soft {
+    grid-row: 2;
+    grid-column: 5; }
+
+#one {
+  width: 10rem;
+  height: 10rem; }

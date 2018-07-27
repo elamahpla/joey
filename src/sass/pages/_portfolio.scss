@@ -3,14 +3,9 @@
   @include placement;
   display: grid;
   // grid-template-columns: min-content;
-  grid-template-rows: 5rem max-content;
+  // grid-template-rows: 5rem max-content;
   grid-template-columns: 5rem repeat(5, 30rem);
-  // grid-template-rows: 5rem 1fr;
-  &-Websites {
-    grid-column: 2;
-    grid-row: 2;
-    display: grid;
-  }
+  grid-template-rows: .3rem;
   &-Button {
     &-JR {
       background: #4d2f79;
@@ -36,16 +31,26 @@
       color: black;
     }
     &-Gallery {
-      background: #c39569;
-      color: black;
+      background: #a82f6c;
+      color: white;
     }
+    &-Slider {
+      background: #2b464e;
+    }
+    &-VisibilityToggle {
+      background: #556b2f;
+    }
+  }
+  &-Websites {
+    grid-column: 2;
+    grid-row: 1;
   }
   &-JS {
     grid-column: 4;
-    grid-row: 2;
+    grid-row: 1;
   }
   &-Components {
     grid-column: 6;
-    grid-row: 2;
+    grid-row: 1;
   }
 }
