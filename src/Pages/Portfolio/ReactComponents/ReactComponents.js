@@ -4,6 +4,7 @@ import VisibilityToggle from './VisibilityToggle/VisibilityToggle';
 import MenuContainer from './Sidebar/MenuContainer';
 import Modal from './Modal/Modal';
 import Todo from './Todo/Todo'; 
+import WeightConverter from './WeightConverter/WeightConverter';
 
 const ReactComponents = () => (
   <div>
@@ -19,6 +20,8 @@ const ReactComponents = () => (
     <Modal />
     <br/>
     <Todo />
+    <br/>
+    <WeightConverter />
   </div>
 );
 
