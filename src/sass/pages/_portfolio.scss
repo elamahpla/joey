@@ -2,11 +2,8 @@
   background: $darkRed;
   @include placement;
   display: grid;
-  // grid-template-columns: minmax(max-content, 10px) minmax(10px, 20px) 50px;
-  // grid-template-columns: .1rem 20rem 20rem 20rem 20rem 20rem;
-  grid-template-columns: repeat(4, 30rem);
-  grid-template-rows: .3rem 1fr;
-  grid-gap: 2rem;
+  grid-template-columns: 30rem 40rem 30rem 40rem 30rem;
+  grid-gap: 5rem;
   &-Button {
     &-JR {
       background: #4d2f79;
@@ -59,14 +56,11 @@
     grid-row: 1;
   }
   &-JS {
-    grid-column: 2;
+    grid-column: 3;
     grid-row: 1;
   }
   &-Components {
-    grid-column: 4;
+    grid-column: 5;
     grid-row: 1;
-  }
-  &-Other {
-    grid-column: 5 / 6;
   }
 }

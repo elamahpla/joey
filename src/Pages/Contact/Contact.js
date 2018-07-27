@@ -5,13 +5,17 @@ const Contact = () => (
     <div className="Contact-GitHub">
       <p>
         <a target="_blank" href="https://github.com/elamahpla">GitHub<br/></a>
-      has been an amazing tool for me. 
+      <ul>
+        <li>Great</li>
+        <li>Amazing</li>
+        <li>Invaluable</li>
+      </ul>
       </p>
     </div>
     <div className="Contact-Twitter">
       <p>
         <a target="_blank" href="https://twitter.com/joeyrobinsondev">Twitter<br/></a>
-        For all the Tweets I send /s
+        I don't really Tweet too often. Feel free to @ me, though.
       </p>
     </div>
     <div className="Contact-LinkedIn">
