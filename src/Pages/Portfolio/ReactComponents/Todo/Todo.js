@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Options from './TodoOptions/TodoOptions';
 import AddOption from './AddOption/AddOption';
 import Header from './TodoHeader/TodoHeader';
-import Button from '../../../../Components/Button/Button';
+import Button from './TodoButton/TodoButton';
 
 class IndecisionApp extends Component {
   state = {
@@ -54,10 +54,10 @@ class IndecisionApp extends Component {
   render() {
     const title = 'Hi'
     return (
-      <div>
+      <div className="Todo">
         <Header title={title}/>
         <Button
-          className="Todo-Button"
+          className="Todo-Button-Three"
           handlePick={this.handlePickHandler}
           handleDelete={this.handleDeleteOptions} 
           hasOptions={this.state.options.length > 0}

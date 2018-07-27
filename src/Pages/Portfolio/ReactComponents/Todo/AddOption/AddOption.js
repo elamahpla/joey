@@ -23,8 +23,17 @@ class AddOption extends Component {
         {this.state.error && <p>{this.state.error}</p>}
         <form
           onSubmit={this.handleAddOption}>
-          <button>Add Option</button>
-          <input type="text" name="option" className=""/>
+          <button 
+            className="Todo-Button-AddOption"
+          >
+            Add Option
+          </button>
+          <input 
+            type="text" 
+            name="option" 
+            className="Todo-Input"
+            placeholder="Add Todo"
+          />
         </form>
       </div>
     );

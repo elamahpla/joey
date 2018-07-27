@@ -1,15 +1,16 @@
 import React from 'react';
 
+
 const Option = (props) => {
   return (
-    <div className="">
+    <div className="Todo-Text">
       {props.optionText}
       <button
-        className=""
+        className="Todo-Button-Remove"
         onClick={(event) => {props.removeSingleItem(props.optionText)}}>
         Remove
       </button>
-      </div>
+    </div>
   )
 }
 
