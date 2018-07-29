@@ -2,7 +2,7 @@
   background: $skillsDarkBlue;
   @include placement;
   display: grid;
-  grid-template-rows: 5rem max-content;
+  grid-template-rows: 5rem max-content 50rem;
   grid-template-columns: repeat(5, 20%);
   justify-items: center;
   font-size: 1.5rem;
