@@ -2,30 +2,53 @@
   background: $skillsDarkBlue;
   @include placement;
   display: grid;
-  grid-template-rows: 5rem max-content 50rem;
+  grid-template-rows: 15rem max-content min-content 25rem;
   grid-template-columns: repeat(5, 20%);
   justify-items: center;
   font-size: 1.5rem;
   text-align: center;
+  &-WorkingOn {
+    grid-row: 3;
+    grid-column: 3;
+  }
   &-CSS {
     grid-row: 2;
     grid-column: 1;
+    &-WorkingOn {
+      grid-row: 4;
+    }
   }
   &-JavaScript {
     grid-row: 2;
     grid-column: 2;
+    &-WorkingOn {
+      grid-row: 4;
+      grid-column: 2;
+    }
   }
   &-React {
     grid-row: 2;
     grid-column: 3;
+    &-WorkingOn {
+      grid-row: 4;
+      grid-column: 3;
+    }
   }
   &-Other {
     grid-row: 2;
     grid-column: 4;
+    &-WorkingOn {
+      grid-row: 4;
+      grid-column: 4;
+    }
   }
   &-Soft {
     grid-row: 2;
     grid-column: 5;
+    &-WorkingOn {
+      grid-row: 4;
+      grid-column: 5;
+    }
   }
 }
 
