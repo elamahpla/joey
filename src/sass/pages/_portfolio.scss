@@ -9,9 +9,7 @@
     grid-template-columns: 100vw;
     grid-template-rows: 35rem max-content;
   }
-  &-Button {
-    @include respond(tabPort) {
-    }    
+  &-Button {  
     &-JR {
       background: #4d2f79;
     }
@@ -43,11 +41,14 @@
       background: #2b464e;
     }
     &-VisibilityToggle {
-      background: #556b2f;
+      background: #53733a;
     }
     &-Modal {
       margin-top: 2rem;
       background: #0892D0;
+      @include respond(tabPort) {
+        display: none;
+      }
       &-Close {
         background: orangered;
         width: 100%;

@@ -1,4 +1,5 @@
 .Hello {
+  display: grid;
   @include respond(tabPort) {
     display: grid;
     grid-template-columns: 1fr;
