@@ -315,12 +315,6 @@ html {
     grid-column: 1 / span -1;
     grid-row: 1 / span -1; }
 
-.Sidebar {
-  background: linear-gradient(225deg, #000c24, #062361, #0838a6, #004ef1);
-  grid-column: 1 / 2;
-  grid-row: 1 / span 6;
-  display: none; }
-
 .MenuContainer {
   width: 3rem;
   height: 3rem;
