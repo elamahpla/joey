@@ -4,16 +4,33 @@
   grid-template-columns: repeat(3, 1fr);
   text-align: center;
   font-size: 1.5rem;
+  @include respond(tabPort) {
+    grid-template-rows: repeat(5, 15rem);
+    grid-template-columns: 0;
+    & h1 {
+      grid-column: 2;
+      margin-top: 8rem;
+    }
+  }
   &-Greeting {
     grid-column: 2;
     grid-row: 2;
+    @include respond(tabPort) {
+      grid-column: 1;
+      grid-row: 3;
+      
+    }
   }
   &-Welcome {
     grid-column: 2;
     grid-row: 3;
+    @include respond(tabPort) {
+      grid-row: 4;
+    }
   }
   &-Exit {
     grid-column: 2;
     grid-row: 7;
+    margin-bottom: 2rem;
   }
 }

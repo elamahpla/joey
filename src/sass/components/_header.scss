@@ -11,6 +11,10 @@
   top: 0;
   left: 0;
   width: 100%;
+  @include respond(tabPort) {
+    grid-template-columns: 1fr;
+    grid-template-rows: 5;
+  }
   &-Home {
     grid-column: 1;
     @include headerRoll;
@@ -19,6 +23,14 @@
     }
     &-Active {
       background: $homeGreenDark;
+    }
+    @include respond(tabPort) {
+      grid-row: 1;
+      grid-column: 1;
+      width: 100%;
+      &-Active {
+        grid-row: 7;
+      }
     }
   }
   &-About {
@@ -30,6 +42,14 @@
     &-Active {
       background: $aboutPurpleDark;
     }
+    @include respond(tabPort) {
+      grid-row: 2;
+      grid-column: 1;
+      width: 100%;
+      &-Active {
+        grid-row: 7;
+      }
+    }
   }
   &-Skills {
     grid-column: 3;
@@ -39,6 +59,14 @@
     }
     &-Active {
       background: $skillsDarkBlue;
+    }
+    @include respond(tabPort) {
+      grid-row: 3;
+      grid-column: 1;
+      width: 100%;
+      &-Active {
+        grid-row: 7;
+      }
     }
   }
   &-Portfolio {
@@ -50,6 +78,14 @@
     &-Active {
       background: $darkRed;
     }
+    @include respond(tabPort) {
+      grid-row: 5;
+      grid-column: 1;
+      width: 100%;
+      &-Active {
+        grid-row: 7;
+      }
+    }
   }
   &-Contact {
     grid-column: 5;
@@ -60,6 +96,14 @@
     &-Active {
       background: $darkGrey;
     }
+    @include respond(tabPort) {
+      grid-row: 6;
+      grid-column: 1;
+      width: 100%;
+      // &-Active {
+      //   grid-row: 7;
+      // }
+    }
   }
   &-Line {
     grid-column: 6;
@@ -67,5 +111,8 @@
     height: .1rem;
     width: min-content;
     background: $headerWhite;
+    @include respond(tabPort) {
+      display: none;
+    }
   }
 }
