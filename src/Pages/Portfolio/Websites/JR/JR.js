@@ -17,8 +17,8 @@ class JR extends Component {
       <div>
         <a href="http://joeyrobinson.me/" target="_blank">
           <img
-            src="https://drive.google.com/uc?id=1A7QHS8Cl0Bh-pUfJTs7m9GVPEOFnbed1" 
-            alt=""
+            src="https://i.imgur.com/XJjuOUd.png"
+            alt="Joey Robinson Personal Site Version 1"
           />
         </a>
         <Button

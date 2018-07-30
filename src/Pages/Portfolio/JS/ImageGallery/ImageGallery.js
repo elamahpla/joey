@@ -17,8 +17,8 @@ class ImageGallery extends Component {
       <div>
         <a href="https://github.com/elamahpla/ImageGallery" target="_blank" rel="nofollow">
           <img
-            src="https://i.imgur.com/2d1llG9.png" 
-            alt=""
+            src="https://i.imgur.com/M1S5X2F.png" 
+            alt="Joey Robinson Image Gallery"
           />
         </a>
         <Button

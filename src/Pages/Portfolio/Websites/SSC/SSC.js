@@ -17,8 +17,8 @@ class SSC extends Component {
       <div>
         <a href="http://sweetestsoutherncreations.com/#/" target="_blank" rel="nofollow">
           <img
-            src="https://i.imgur.com/NEw8g9e.png" 
-            alt=""
+            src="https://i.imgur.com/9LQ7qL9.png" 
+            alt="Joey Robinson Sweetest Southern Creations"
           />
         </a>
         <Button

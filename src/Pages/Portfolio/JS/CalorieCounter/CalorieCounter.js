@@ -17,8 +17,8 @@ class CalorieCounter extends Component {
       <div>
         <a href="https://github.com/elamahpla/CalorieCounter" target="_blank" rel="nofollow">
           <img
-            src="https://i.imgur.com/Ykwr86h.png" 
-            alt=""
+            src="https://i.imgur.com/VVPrjGA.png" 
+            alt="Joey Robinson Calorie Counter"
           />
         </a>
         <Button

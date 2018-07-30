@@ -17,8 +17,8 @@ class FilterableList extends Component {
       <div>
         <a href="https://github.com/elamahpla/FilterableList" target="_blank" rel="nofollow">
           <img
-            src="https://i.imgur.com/NoWa4Rv.png" 
-            alt=""
+            src="https://i.imgur.com/R97S0yP.png" 
+            alt="Joey Robinson Filterable List"
           />
         </a>
         <Button

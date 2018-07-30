@@ -17,8 +17,8 @@ class BookMarker extends Component {
       <div>
         <a href="https://github.com/elamahpla/bookmark" target="_blank" rel="nofollow">
           <img
-            src="https://i.imgur.com/zJMivr0.png" 
-            alt=""
+            src="https://i.imgur.com/68rGeRA.png" 
+            alt="Joey Robinson Bookmarker"
           />
         </a>
         <Button

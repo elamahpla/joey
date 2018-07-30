@@ -19,7 +19,7 @@ class VisibilityToggle extends Component {
           href="https://github.com/elamahpla/ReusableComponents" 
           target="_blank"
         >
-        <img src="https://i.imgur.com/wT0CYy2.png" alt=""/>
+        <img src="https://i.imgur.com/0rpXnWu.png" alt="Joey Robinson Visibility Toggle"/>
         </a>
         <Button
           className="Portfolio-Button-VisibilityToggle"

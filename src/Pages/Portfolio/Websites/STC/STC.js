@@ -20,8 +20,8 @@ class STC extends Component {
           target="_blank" 
           rel="nofollow">
           <img 
-            src="https://drive.google.com/uc?id=1pUo71qRaA1gejbK-xmELPAGxCy6uogPu" 
-            alt=""
+            src="https://i.imgur.com/H3xulPC.jpg"
+            alt="Joey Robinson Save The Chocobos"
           />  
         </a>
         <Button

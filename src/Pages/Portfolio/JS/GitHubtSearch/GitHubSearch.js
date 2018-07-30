@@ -21,8 +21,8 @@ class GitHubSearch extends Component {
           rel="nofollow"
         >
           <img
-            src="https://i.imgur.com/5goS8Zh.png" 
-            alt=""
+            src="https://i.imgur.com/RppIeT6.png" 
+            alt="Joey Robinson GitHub User Search"
           />
         </a>
         <Button

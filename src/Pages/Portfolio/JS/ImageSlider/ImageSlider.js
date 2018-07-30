@@ -20,8 +20,8 @@ class ImageSlider extends Component {
           target="_blank" 
         >
           <img
-            src="https://i.imgur.com/GT6DB4r.jpg" 
-            alt=""
+            src="https://i.imgur.com/IBuOBxp.jpg" 
+            alt="Joey Robinson Image Slider"
           />
         </a>
         <Button

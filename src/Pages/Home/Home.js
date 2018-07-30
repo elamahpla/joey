@@ -9,7 +9,7 @@ const Home = () => (
       Hey, I'm Joey.
     </h1>
     <div className="Home-Welcome">
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam, hic!</p>
+      <p>This is a placeholder until I finalize the third iteration of my website. I'm very displeased at how this turned out.</p>
     </div>
   </div>
 );
