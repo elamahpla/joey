@@ -5,6 +5,15 @@ import React from 'react';
 
 const About = () => (
   <div className="About">
+    <div className="About-Goals">
+      <h1>Goals</h1>
+      <p>
+        My current goals are pretty straightforward: I want to make things I think are amazing and work with an awesome team who has a similar mindset as I do.
+        I also want to know several programming languages, so I can make anything in any language I want :D.
+      </p>
+      <br/>
+      <hr/>
+    </div>
     <div className="About-Top">
       <h1>Interests</h1>
       <p>I have varying interests, some of which include watching movies. From Bladerunner to a Silent Voice, I enjoy a great movies

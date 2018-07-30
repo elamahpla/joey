@@ -17,16 +17,20 @@
   & p {
     font-size: 1.8rem;
   }
-  &-Top {
+  &-Goals {
     grid-row: 2;
     grid-column: 2;
   }
-  &-Middle {
+  &-Top {
     grid-row: 3;
     grid-column: 2;
   }
-  &-Bottom {
+  &-Middle {
     grid-row: 4;
+    grid-column: 2;
+  }
+  &-Bottom {
+    grid-row: 5;
     grid-column: 2;
   }
 }

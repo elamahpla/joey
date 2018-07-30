@@ -3,7 +3,7 @@ import React from 'react';
 const Skills = () => (
   <div className="Skills">
     <div className="Skills-CSS">
-      <img id="one" src="https://drive.google.com/uc?id=1rg_fmn6tD3-BKA1xZcuHZ59GUIIxdgSB" alt=""/>
+      <img id="one" src="https://i.imgur.com/iUrkthX.png" alt="Joey Robinson Skills CSS"/>
       <ul>
         <li>SCSS/SASS</li>
         <li>Compiling SCSS</li>
@@ -28,7 +28,7 @@ const Skills = () => (
       </ul>
     </div>
     <div className="Skills-JavaScript">
-      <img id="one" src="https://raw.githubusercontent.com/voodootikigod/logo.js/master/js.png" alt=""/>
+      <img id="one" src="https://i.imgur.com/k5ChXx5.png" alt="Joey Robinson Skills JavaScript"/>
       <ul>
         <li>Vanilla JS</li>
         <li>ES6 JS</li>
@@ -65,7 +65,7 @@ const Skills = () => (
       </ul>
     </div>
     <div className="Skills-Other">
-      <img src="https://raw.githubusercontent.com/webpack/media/master/logo/icon-square-big.png" alt="" id="one"/>
+      <img src="https://i.imgur.com/VVQFRTJ.png" alt="Joey Robinson Skills Other" id="one"/>
       <ul>
         <li>Webpack</li>
         <li>Parcel</li>
@@ -85,6 +85,7 @@ const Skills = () => (
       </ul>
     </div>
     <div className="Skills-Soft">
+      <img id="one" src="" alt="I have No Image"/>
       <ul>
         <li>Communication</li>
         <li>Problem Solving</li>

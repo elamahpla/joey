@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => (
   <div className="Footer">
-    From Footer
+    &copy; Joey Robinson &nbsp;2018
   </div>
 );
 

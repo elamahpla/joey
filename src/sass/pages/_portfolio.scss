@@ -54,6 +54,7 @@
   &-Websites {
     grid-column: 1;
     grid-row: 1;
+    margin-left: 1rem;
   }
   &-JS {
     grid-column: 3;
@@ -62,5 +63,6 @@
   &-Components {
     grid-column: 5;
     grid-row: 1;
+    margin-right: 1rem;
   }
 }
