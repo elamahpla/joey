@@ -10,6 +10,11 @@
   grid-template-rows: 2.5rem repeat(4, max-content);
   justify-content: center;
   grid-gap: 3rem;
+  @include respond(tabPort) {
+    grid-template-columns: 0;
+    grid-template-rows: 35rem 30rem 60rem 50rem;
+    grid-gap: 0;
+  }
   & h1 {
     text-align: center;
     text-decoration: underline;
@@ -20,17 +25,37 @@
   &-Goals {
     grid-row: 2;
     grid-column: 2;
+    @include respond(tabPort) {
+      grid-row: 2;
+      padding-left: .2rem;
+      hyphens: auto;
+    }
   }
   &-Top {
     grid-row: 3;
     grid-column: 2;
+    @include respond(tabPort) {
+      grid-row: 3;
+      padding-left: .2rem;
+      hyphens: auto;
+    }
   }
   &-Middle {
     grid-row: 4;
     grid-column: 2;
+    @include respond(tabPort) {
+      grid-row: 4;
+      padding-left: .2rem;
+      hyphens: auto;
+    }
   }
   &-Bottom {
     grid-row: 5;
     grid-column: 2;
+    @include respond(tabPort) {
+      grid-row: 8;
+      padding-left: .2rem;
+      hyphens: auto;
+    }
   }
 }
