@@ -1,3 +1,7 @@
+// This is more inline with what I had in mind. I remove the columns and add a few rows
+// For the content. After that I simply place the items inside of the rows. I think I've been
+// treating grid in such a way that while it does work, it isn't ideal to the flow of data.
+// This page (on small screens) highlights what I think should happen.
 .Contact {
   background: $darkGrey;
   @include placement;
@@ -7,6 +11,11 @@
   grid-gap: 5rem;
   font-size: 1.5rem;
   text-align: center;
+  @include respond(tabPort) {
+    grid-template-columns: 0;
+    grid-template-rows: 35rem repeat(4, 20rem);
+    grid-gap: 0;
+  }
   & a {
     font-size: 7rem;
     padding: 0;

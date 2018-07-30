@@ -85,7 +85,7 @@ const Skills = () => (
       </ul>
     </div>
     <div className="Skills-Soft">
-      <img id="one" src="" alt="I have No Image"/>
+      <img id="one" src="https://i.imgur.com/JjGg8DP.png" alt="I drew this in paint"/>
       <ul>
         <li>Communication</li>
         <li>Problem Solving</li>

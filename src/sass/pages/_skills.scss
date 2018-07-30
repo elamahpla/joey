@@ -1,3 +1,7 @@
+// CSS For Skills.js. This, in addition to all the other CSS here, isn't what I had in mind
+// But I got carried away. I'll detail that somewhere else, though. 
+// For this, I didn't want to show the 'working on' with small screen sizes, so I just used a display: none;
+// So the information flows more smoothly.
 .Skills {
   background: $skillsDarkBlue;
   @include placement;
@@ -7,47 +11,90 @@
   justify-items: center;
   font-size: 1.5rem;
   text-align: center;
+  @include respond(tabPort) {
+    grid-template-columns: 1fr;
+    // grid-template-rows: repeat(6, 30rem);
+    grid-template-rows: 35rem 35rem 25rem 25rem 30rem 25rem;
+  }
   &-WorkingOn {
     grid-row: 3;
     grid-column: 3;
+    @include respond(tabPort) {
+      display: none;
+    }
   }
   &-CSS {
     grid-row: 2;
     grid-column: 1;
+    @include respond(tabPort) {
+      grid-row: 2;
+      grid-column: 1;
+    }
     &-WorkingOn {
       grid-row: 4;
+      @include respond(tabPort) {
+        display: none;
+      }
     }
   }
   &-JavaScript {
     grid-row: 2;
     grid-column: 2;
+    @include respond(tabPort) {
+      grid-row: 3;
+      grid-column: 1;
+    }
     &-WorkingOn {
       grid-row: 4;
       grid-column: 2;
+      @include respond(tabPort) {
+        display: none;
+      }
     }
   }
   &-React {
     grid-row: 2;
     grid-column: 3;
+    @include respond(tabPort) {
+      grid-row: 4;
+      grid-column: 1;
+    }
     &-WorkingOn {
       grid-row: 4;
       grid-column: 3;
+      @include respond(tabPort) {
+        display: none;
+      }
     }
   }
   &-Other {
     grid-row: 2;
     grid-column: 4;
+    @include respond(tabPort) {
+      grid-row: 5;
+      grid-column: 1;
+    }
     &-WorkingOn {
       grid-row: 4;
       grid-column: 4;
+      @include respond(tabPort) {
+        display: none;
+      }
     }
   }
   &-Soft {
     grid-row: 2;
     grid-column: 5;
+    @include respond(tabPort) {
+      grid-column: 1;
+      grid-row: 6;
+    }
     &-WorkingOn {
       grid-row: 4;
       grid-column: 5;
+      @include respond(tabPort) {
+        display: none;
+      }
     }
   }
 }
