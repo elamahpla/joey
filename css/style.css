@@ -61,12 +61,6 @@ html {
   height: 90%;
   margin: 0 auto; }
 
-.Sidebar {
-  background: linear-gradient(225deg, #000c24, #062361, #0838a6, #004ef1);
-  grid-column: 1 / 2;
-  grid-row: 1 / span 6;
-  display: none; }
-
 .Hello {
   display: grid;
   grid-template-columns: 5rem 10rem 1fr;
