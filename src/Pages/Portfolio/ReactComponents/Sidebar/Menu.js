@@ -11,7 +11,7 @@ class Menu extends Component {
         id="flyoutMenu"
         onClick={this.props.handleMouseDown} 
         className={visibility}>
-        hi
+        This is a sidebar
       </div>
     );
   }

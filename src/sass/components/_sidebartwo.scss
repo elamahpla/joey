@@ -1,15 +1,18 @@
 // Container Div. This holds the button. Made a grid so the button is centered.
 .MenuContainer {
-  width: 30px;
-  height: 30px;
+  width: 3rem;
+  height: 3rem;
   float: right;
+  @include respond(tabPort) {
+    float: left;
+  }
 }
 
 // Button for the sidebar. 
 #menuButton {
   background-color: red;
-  width: 30px;
-  height: 30px;
+  width: 3rem;
+  height: 3rem;
   border-radius: 50%;
   border: 5px solid white;
   outline: none;
@@ -30,8 +33,6 @@
 
 // The Menu itself. 
 #flyoutMenu {
-  display: grid;
-  grid-template-columns: 1fr;
   width: 12.2vw;
   height: 100%;
   background: #383030;
